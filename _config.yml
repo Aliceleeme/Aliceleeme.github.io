@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Here we can go"
 title_separator          : "-"
 name                     : "Alice"
-description              : "An amazing website."
+description              : "none"
 url                      : "https://aliceleeme.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,8 +103,8 @@ analytics:
 author:
   name             : "Alice"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "wow"
-  location         : "Somewhere"
+  bio              : "Addicted something"
+  location         : "Electronic world"
   email            :
   links:
     - label: "Email"
