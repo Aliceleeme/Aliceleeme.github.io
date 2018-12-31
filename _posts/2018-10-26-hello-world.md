@@ -1,8 +1,8 @@
 ---
 title: "hello world"
 categories: 
-  - blogging
-last_modified_at: 2018-10-26T13:00:00+09:00
+  - blog
+last_modified_at: 2018-10-26T13:00:00+08:00
 toc: true
 ---
 
