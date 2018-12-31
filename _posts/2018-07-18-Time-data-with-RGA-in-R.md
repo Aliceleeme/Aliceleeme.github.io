@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "R에서 RGA 라이브러리의 Time data 다루기"
-date: 2018-07-18 17:39
-comments: true
-categories: R
+categories: 
+  - R
+last_modified_at: 2018-07-18T15:00:00+08:00
+toc: true
 ---
 
 R과 google analytics를 연결하여 분석을 진행하기 위해서는 time data를 정제하고 형식을 통일해야만 한다. 하지만 R의 경우 time data를 다루기 어려운 것으로 유명하다. 그래서 [RGA](https://cran.r-project.org/web/packages/RGA/README.html) 라이브러리에서 시간 데이터를 다룰 때 어떻게 작업하였는지 정리한 코드를 간단히 기록하려고 한다. CausalImpact 패키지에 대한 정보가 궁금하다면 [여기](https://google.github.io/CausalImpact/CausalImpact.html)를 통해 확인하자.
