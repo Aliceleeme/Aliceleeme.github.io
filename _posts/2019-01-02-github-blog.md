@@ -84,7 +84,7 @@ toc: true
 
 7. 옵션 
 
-  _data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
+    →　_data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
 
 
 8. 블로그 작성 완료
