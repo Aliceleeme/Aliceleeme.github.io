@@ -43,17 +43,23 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
 
 1. [minimal-mistake](https://github.com/mmistakes/minimal-mistakes) 테마를 fork 한다. 
 
+
 2. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
+
     굳이 삭제하고 싶다면 이 분의 글에서 ["불필요한 파일 목록"](https://imreplay.com/blogging/minimal-mistakes-%ED%85%8C%EB%A7%88%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/) 을 참고하면 좋음. 
 
+
 3. _config.yml 파일에서 아래의 내용을 수정
+
     1. Site Settings에서 locale: "ko-KR" 인지 확인
         - locale이 "ko-KR"이라고 할지라도 영어, 일어로 작성된 포스팅은 문자가 깨지지 않았음. 지킬 자체가 utf-8을 지원해서 그런 듯
     2. Site Settings에서 title, name, url 수정 
         - url은 반드시 [본인의 github 계정].github.io 형태로 작성해야 함
     3. Site Author 부분의 author name, bio, location 등 수정
     
+    
 4. _post 폴더에서 테스트 포스트를 작성
+
     이 때 저는 아래의 양식을 활용했습니다. 1열부터 — 이하의 내용이 시작되지 않으면 테스트 포스팅 작성 이후 글이 깨질 수 있으니 유의하세요. 
 
 ````
@@ -73,9 +79,13 @@ toc: true
 
 5. 1~4까지 모든 작업 완료 후 [본인의 github 계정].github.io 에 접속하여 결과 확인 
 
+
 6. 결과 확인 후 문제가 있으면 트러블 슈팅 
 
-7. 옵션: _data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
+
+7. 옵션 
+
+  _data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
 
 
 나의 경우 3까지는 어떻게 하더라도 4→5로 넘어가는 과정에서 오류를 발견하는 경우가 많았다. 그래서 처음엔 3에서 실수를 많이 했나 생각했었다.
