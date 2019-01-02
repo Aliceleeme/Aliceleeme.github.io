@@ -44,7 +44,6 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
 1. [minimal-mistake](https://github.com/mmistakes/minimal-mistakes) 테마를 fork 한다. 
 
 2. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
-
     굳이 삭제하고 싶다면 이 분의 글에서 ["불필요한 파일 목록"](https://imreplay.com/blogging/minimal-mistakes-%ED%85%8C%EB%A7%88%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/) 을 참고하면 좋음. 
 
 3. _config.yml 파일에서 아래의 내용을 수정
@@ -55,18 +54,19 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
     3. Site Author 부분의 author name, bio, location 등 수정
     
 4. _post 폴더에서 테스트 포스트를 작성
+    이 때 저는 아래의 양식을 활용했습니다. 1열부터 — 이하의 내용이 시작되지 않으면 테스트 포스팅 작성 이후 글이 깨질 수 있으니 유의하세요. 
 
-    이 때 저는 아래의 양식을 활용했습니다. 1열부터 — 이하의 내용이 시작되지 않으면 테스트 포스팅 작성 이후 글이 깨질 수 있으니 유의하세요. (실제로 작성할 땐 * 마크를 지우셔야 합니다) 
-
-*---
+````
+---
 title: "test"
 categories:
   - blog (본인이 정하고 싶은 글의 카테고리 종류를 작성, 굳이 blog 아니어도 됨)
 last_modified_at: 2018-10-26T13:00:00+08:00
 toc: true
-*---
+---
 
 콘텐츠 작성
+````
 
 이 방식대로 하면 대체적으로 minimal-mistake에서는 문제가 없어보였습니다. 
 
