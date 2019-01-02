@@ -44,7 +44,10 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
 1. [minimal-mistake](https://github.com/mmistakes/minimal-mistakes) 테마를 fork 한다. 
 
 
-2. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
+2. fork한 레포지토리 이름을 (github_id).github.io로 바꾼다 
+
+
+3. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
 
     굳이 삭제하고 싶다면 이 분의 글에서 ["불필요한 파일 목록"](https://imreplay.com/blogging/minimal-mistakes-%ED%85%8C%EB%A7%88%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/) 을 참고하면 좋음. 
 
@@ -60,7 +63,9 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
     
 4. _post 폴더에서 테스트 포스트를 작성
 
-    테스트 포스트를 작성할 때는 아래의 양식을 활용해서 작성하였다. 1열부터 — 이하의 내용이 시작되지 않으면 테스트 포스팅 작성 이후 글이 깨질 수 있으니 유의할 것. 이 방식대로만 하면 대체적으로 minimal-mistake에서 별 다른 문제는 없어보였다. 
+    테스트 포스트를 작성할 때는 아래의 양식을 활용해서 작성하였다. 
+    
+    1열부터 — 이하의 내용이 시작되지 않으면 테스트 포스팅 작성 이후 글이 깨질 수 있으니 유의할 것. 이 방식대로만 하면 대체적으로 minimal-mistake에서 별 다른 문제는 없어보였다. 
  
 
   ````
@@ -75,22 +80,19 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
   콘텐츠 작성
   ````
 
-5. 1~4까지 모든 작업 완료 후 [본인의 github 계정].github.io 에 접속하여 결과 확인 
+
+* Tip: 
+  _data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
 
 
-6. 결과 확인 후 문제가 있으면 트러블 슈팅 
 
 
-7. 옵션 
-
-    →　_data 폴더 아래의 navigation.yml에서 quick-start guide 삭제. quick-start guide를 삭제하고 본인이 원하는 링크 추가 가능
-
-
-8. 블로그 작성 완료
-
+이 작업을 할 때는 짬짬히 자신이 설정한 github.io를 확인하면서 수정하면 훨씬 더 수월하게 작업이 가능하다
 
 
 나의 경우, 블로그를 만들 때 3까지는 어떻게 하더라도 4→5로 넘어가는 과정에서 오류를 발견하는 경우가 많았다. 그래서 처음엔 3에서 실수를 많이 했나 생각했었다.
+
+
 
 
 하지만 가장 많은 실수를 저지른 부분은 두번째 과정에서 특정 gem 파일이나 폴더를 삭제할 때 발생한 경우가 대부분이었다. 
