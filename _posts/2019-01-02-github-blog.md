@@ -41,7 +41,7 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
 ## github blog 만들기 (ver.minimal mistake) ##
 
 
-1. minimal-mistake 테마를 fork 한다. 
+1. [minimal-mistake](https://github.com/mmistakes/minimal-mistakes) 테마를 fork 한다. 
 
 2. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
 
