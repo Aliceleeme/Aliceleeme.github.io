@@ -10,10 +10,7 @@ toc: true
 
 SourceTree에서 커밋은 가능하지만 푸쉬는 완료되지 못한 상황이다.
 
-GitHub 계정 설정에 실패한 듯 하여 소스트리에서 리모트 레포지토리를 확인해봤더니 GitHub 로그인을 요구했다.
-
-메일 주소와 비밀번호를 입력했더니 아래와 같은 오류가 발생하였다.
-
+GitHub 계정 설정에 실패한 듯 하여 소스트리에서 리모트 레포지토리를 확인해봤더니 GitHub 로그인을 요구했다. 메일 주소와 비밀번호를 입력했더니 아래와 같은 오류가 발생하였다.
 
 Could not authorize request with the available token. Please re-authenticate.
 
@@ -28,13 +25,9 @@ Could not authorize request with the available token. Please re-authenticate.
 
   * 에러는 발생하지 않았고 로그인이 된 것처럼 보이지만 Push 실패
 
-③KeyChain Access의 GitHub Credentials와 github.com Access Key for [계정명]의 패스워드를 삭제→ PC 재부팅→ SourceTree에서 GitHub에 재로그인
+③KeyChain Access에서 GitHub Credentials와 github.com Access Key for [계정명]의 패스워드를 삭제→ PC 재부팅→ SourceTree에서 GitHub에 재로그인
 
-  * KeyChain Access 경로:  Application_Utilities_. 매킨토시의 응용 프로그램 폴더의 유틸리티 안에 있다
-
-  * 여기서 말하는 GitHub credentials, github.com access key for X의 패스워드는 아래와 같다. 초보자라면 찾기 쉽지 않을 내용.
-
-![keychain](./_image/mac_keychain.png)
+  * KeyChain Access 경로: /Application/Utilities/Keychain Access/ 즉 매킨토시의 응용 프로그램 폴더의 유틸리티 안에 있다
 
 ③번의 방법으로 마침내 해결
 
@@ -54,4 +47,4 @@ SourceTree가 GitHub Credentials의 비밀번호 액세스 허가 다이얼로�
 
 [링크3](https://stackoverflow.com/questions/23039133/github-sourcetree-getting-unauthorized-error)
 
-[번역 원본(일본어)](https://qiita.com/iKimishima/items/387ccd8b2172c683c5ea)
+[참고 포스팅(일본어)](https://qiita.com/iKimishima/items/387ccd8b2172c683c5ea)
