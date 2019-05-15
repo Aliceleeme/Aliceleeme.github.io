@@ -34,7 +34,7 @@ Could not authorize request with the available token. Please re-authenticate.
 
   * 여기서 말하는 GitHub credentials, github.com access key for X의 패스워드는 아래와 같다. 초보자라면 찾기 쉽지 않을 내용.
 
-![](aliceleeme.github.io/_image/mac_keychain.png)
+![keychain](aliceleeme.github.io/_image/mac_keychain.png)
 
 ③번의 방법으로 마침내 해결
 
