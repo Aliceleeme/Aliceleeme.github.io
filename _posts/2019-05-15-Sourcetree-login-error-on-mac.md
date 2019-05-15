@@ -41,7 +41,9 @@ SourceTree가 GitHub Credentials의 비밀번호 액세스 허가 다이얼로�
 참고링크
 -------
 [링크1](https://community.atlassian.com/t5/Sourcetree-questions/Getting-quot-Could-not-authorize-request-with-the-available/qaq-p/708633)
+
 [링크2](https://community.atlassian.com/t5/Sourcetree-questions/Authentication-issue-accessing-GitHub-repos/qaq-p/397660)
+
 [링크3](https://stackoverflow.com/questions/23039133/github-sourcetree-getting-unauthorized-error)
 
 
