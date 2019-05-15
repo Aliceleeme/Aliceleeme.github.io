@@ -1,10 +1,10 @@
-----
+---
 title: "Mac에서 Sourcetree 오류 문제 해결하기"
 categories:
-* Develop
+  - Develop
 last_modified_at: 2019-05-15T14:00:00+08:00
 toc: true
-----
+---
 
 ## 현상
 
