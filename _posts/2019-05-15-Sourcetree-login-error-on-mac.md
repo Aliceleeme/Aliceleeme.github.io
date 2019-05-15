@@ -22,7 +22,7 @@ Could not authorize request with the available token. Please re-authenticate.
     * SourceTreeForMac(Mac의 경우)가 있는 것을 확인 
 
 
-②SourceTree의 설정 아이콘→계정→GitHub 계정을 재연결. 
+②SourceTree의 설정 아이콘→ 계정→ GitHub 계정을 재연결. 
 
     *  에러는 발생하지 않았고 로그인이 된 것처럼 보이지만, Push 실패.
 
