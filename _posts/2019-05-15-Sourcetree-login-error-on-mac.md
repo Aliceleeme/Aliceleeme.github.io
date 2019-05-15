@@ -9,8 +9,11 @@ toc: true
 ## 현상
 
 SourceTree에서 커밋은 가능하지만 푸쉬는 완료되지 못한 상황이다.
+
 GitHub 계정 설정에 실패한 듯 하여 소스트리에서 리모트 레포지토리를 확인해봤더니 GitHub 로그인을 요구했다.
+
 메일 주소와 비밀번호를 입력했더니 아래와 같은 오류가 발생하였다.
+
 
 Could not authorize request with the available token. Please re-authenticate.
 
