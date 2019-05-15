@@ -1,5 +1,5 @@
 ---
-title: "Mac에서 Sourcetree 오류 문제 해결하기"
+title: "Sourcetree에서 github 계정 연결 문제 해결하기"
 categories:
   - Develop
 last_modified_at: 2019-05-15T14:00:00+08:00
@@ -8,7 +8,7 @@ toc: true
 
 ## 현상
 
-SourceTree에서 커밋은 가능하지만 푸쉬는 완료되지 못한 상황이다.
+SourceTree에서 커밋은 가능하지만 푸쉬는 완료할 수 없는 상황.
 
 GitHub 계정 설정에 실패한 듯 하여 소스트리에서 리모트 레포지토리를 확인해봤더니 GitHub 로그인을 요구했다. 메일 주소와 비밀번호를 입력했더니 아래와 같은 오류가 발생하였다.
 
