@@ -6,8 +6,6 @@ last_modified_at: 2019-05-15T14:00:00+08:00
 toc: true
 ---
 
-[원본](https://qiita.com/iKimishima/items/387ccd8b2172c683c5ea)
-
 현상
 ----
 SourceTree에서 커밋은 가능하지만 푸쉬는 완료되지 못한 상황이다. 
@@ -45,3 +43,7 @@ SourceTree가 GitHub Credentials의 비밀번호 액세스 허가 다이얼로�
 https://community.atlassian.com/t5/Sourcetree-questions/Getting-quot-Could-not-authorize-request-with-the-available/qaq-p/708633
 https://community.atlassian.com/t5/Sourcetree-questions/Authentication-issue-accessing-GitHub-repos/qaq-p/397660
 https://stackoverflow.com/questions/23039133/github-sourcetree-getting-unauthorized-error
+
+
+
+[번역 원본(일본어)](https://qiita.com/iKimishima/items/387ccd8b2172c683c5ea)
