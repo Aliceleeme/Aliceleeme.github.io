@@ -24,7 +24,7 @@ Could not authorize request with the available token. Please re-authenticate.
 
 ②SourceTree의 설정 아이콘→ 계정→ GitHub 계정을 재연결. 
 
-    *  에러는 발생하지 않았고 로그인이 된 것처럼 보이지만, Push 실패.
+    * 에러는 발생하지 않았고 로그인이 된 것처럼 보이지만, Push 실패.
 
 
 ③KeyChain Access의 GitHub Credentials와 github.com Access Key for [계정명]의 패스워드를 삭제→ PC 재부팅→ SourceTree에서 GitHub에 재로그인 
