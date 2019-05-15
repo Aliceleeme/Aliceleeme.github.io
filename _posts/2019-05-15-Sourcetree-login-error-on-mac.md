@@ -17,17 +17,17 @@ Could not authorize request with the available token. Please re-authenticate.
 
 해결법
 ------
-①GitHub 계정의 Personal Setting→ Applications　→ Authorized OAuth Apps을 확인
+①GitHub 계정의 Personal Setting→ Applications→ Authorized OAuth Apps을 확인
 
     * SourceTreeForMac(Mac의 경우)가 있는 것을 확인 
 
 
-②SourceTree의 설정 아이콘→계정→GitHub 계정을 재연결. の接続し直し。
+②SourceTree의 설정 아이콘→계정→GitHub 계정을 재연결. 
 
     *  에러는 발생하지 않았고 로그인이 된 것처럼 보이지만, Push 실패.
 
 
-③KeyChain Access의 GitHub Credentials와 github.com Access Key for [계정명]의 패스워드를 삭제　→ PC 재부팅　→ SourceTree에서 GitHub에 재로그인 
+③KeyChain Access의 GitHub Credentials와 github.com Access Key for [계정명]의 패스워드를 삭제→ PC 재부팅→ SourceTree에서 GitHub에 재로그인 
 
 
 ③번의 방법으로 마침내 해결.
@@ -46,6 +46,7 @@ SourceTree가 GitHub Credentials의 비밀번호 액세스 허가 다이얼로�
 [링크2](https://community.atlassian.com/t5/Sourcetree-questions/Authentication-issue-accessing-GitHub-repos/qaq-p/397660)
 
 [링크3](https://stackoverflow.com/questions/23039133/github-sourcetree-getting-unauthorized-error)
+
 
 
 
