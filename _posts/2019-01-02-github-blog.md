@@ -54,7 +54,7 @@ minimal-mistake를 테마로 한 깃헙 블로그 만들기는 ***생각보다 �
 2. fork한 레포지토리 이름을 (github_id).github.io로 바꾼다 
 
 
-3. folk 된 데이터 중 최대한 아무것도 삭제하지 않는다 
+3. fork 된 데이터 중 최대한 아무것도 삭제하지 않는다 
 
     굳이 삭제하고 싶다면 이 분의 글에서 ["불필요한 파일 목록"](https://imreplay.com/blogging/minimal-mistakes-%ED%85%8C%EB%A7%88%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/) 을 참고하면 좋음. 
 
